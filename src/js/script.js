@@ -1,4 +1,6 @@
+// import $ from 'jquery';
+
 var color = 'yellow';
-$("button").click(function(){
-    $("#my-div").css("background-color", color == 'blue'? (color = 'yellow'): (color = 'blue'));
+RS("button").click(function(){
+    RS("#my-div").css("background-color", color == 'blue'? (color = 'yellow'): (color = 'blue'));
 });
